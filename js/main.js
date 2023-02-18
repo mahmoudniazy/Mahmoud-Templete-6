@@ -57,18 +57,19 @@ colorLis.forEach(li => {
 let landingPage = document.querySelector(".landing-page");
 
 // array of imgs 
-let imgsArray= [
-    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/01.jpg",
-    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/02.jpg",
-    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/03.jpg",
-    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/04.jpg",
-    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/05.jpg",
-    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/06.jpg",
-    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/07.jpg",
-    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/08.jpg",
-    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/09.jpg",
-    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/10.jpg"
-               ];
+let imgsArray = [
+    "https://raw.githubusercontent.com/mahmoudniazy/Mahmoud-Templete-6/main/img/01.jpg",
+    "https://raw.githubusercontent.com/mahmoudniazy/Mahmoud-Templete-6/main/img/02.jpg",
+    "https://raw.githubusercontent.com/mahmoudniazy/Mahmoud-Templete-6/main/img/03.jpg",
+    "https://raw.githubusercontent.com/mahmoudniazy/Mahmoud-Templete-6/main/img/04.jpg",
+    "https://raw.githubusercontent.com/mahmoudniazy/Mahmoud-Templete-6/main/img/05.jpg",
+    "https://raw.githubusercontent.com/mahmoudniazy/Mahmoud-Templete-6/main/img/06.jpg",
+    "https://raw.githubusercontent.com/mahmoudniazy/Mahmoud-Templete-6/main/img/07.jpg",
+    "https://raw.githubusercontent.com/mahmoudniazy/Mahmoud-Templete-6/main/img/08.jpg",
+    "https://raw.githubusercontent.com/mahmoudniazy/Mahmoud-Templete-6/main/img/09.jpg",
+    "https://raw.githubusercontent.com/mahmoudniazy/Mahmoud-Templete-6/main/img/10.jpg"
+];
+
 
 let toggle = document.querySelector(".random-pg span");
 let cyr = document.querySelector(".random-pg span .cyr");
