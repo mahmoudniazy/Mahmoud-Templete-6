@@ -57,7 +57,18 @@ colorLis.forEach(li => {
 let landingPage = document.querySelector(".landing-page");
 
 // array of imgs 
-let imgsArray= ["01.jpg","02.jpg","03.jpg","04.jpg","05.jpg","06.jpg","07.jpg","08.jpg","09.jpg","10.jpg"];
+let imgsArray= [
+    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/01.jpg",
+    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/02.jpg",
+    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/03.jpg",
+    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/04.jpg",
+    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/05.jpg",
+    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/06.jpg",
+    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/07.jpg",
+    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/08.jpg",
+    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/09.jpg",
+    "https://github.com/mahmoudniazy/Mahmoud-Templete-6/blob/main/img/10.jpg"
+               ];
 
 let toggle = document.querySelector(".random-pg span");
 let cyr = document.querySelector(".random-pg span .cyr");
@@ -66,7 +77,7 @@ let switchInterval;
 
 const setBackgroundImage = () => {
     let randomNumber = Math.floor(Math.random() * imgsArray.length);
-    landingPage.style.backgroundImage = `url("/img/${imgsArray[randomNumber]}")`;
+    landingPage.style.backgroundImage = `url("${imgsArray[randomNumber]}")`;
     localStorage.setItem("backgroundImage", landingPage.style.backgroundImage);
 };
 
