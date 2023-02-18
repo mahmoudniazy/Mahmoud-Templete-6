@@ -66,7 +66,7 @@ let switchInterval;
 
 const setBackgroundImage = () => {
     let randomNumber = Math.floor(Math.random() * imgsArray.length);
-    landingPage.style.backgroundImage = `url("./img/${imgsArray[randomNumber]}")`;
+    landingPage.style.backgroundImage = `url("/img/${imgsArray[randomNumber]}")`;
     localStorage.setItem("backgroundImage", landingPage.style.backgroundImage);
 };
 
